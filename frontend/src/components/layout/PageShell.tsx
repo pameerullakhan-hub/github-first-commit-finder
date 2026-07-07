@@ -30,11 +30,11 @@ export const PageShell: React.FC<PageShellProps> = ({ children }) => {
   return (
     <div className="relative min-h-[calc(100vh-4rem)] w-full overflow-hidden px-4 py-8 sm:px-6 lg:px-8">
       
-      {/* Water-like Liquid Spotlight 1 (Cyan - follows faster) */}
+      {/* Water-like Liquid Spotlight 1 (Mint - follows faster) */}
       <div 
         className="pointer-events-none fixed -z-20 h-[650px] w-[650px] rounded-full opacity-60 blur-[140px] transition-all duration-300 ease-out"
         style={{
-          background: 'radial-gradient(circle, rgba(0, 242, 254, 0.12) 0%, rgba(0, 242, 254, 0.04) 50%, transparent 100%)',
+          background: 'radial-gradient(circle, rgba(0, 245, 160, 0.12) 0%, rgba(0, 245, 160, 0.04) 50%, transparent 100%)',
           left: `${mousePos.x - 325}px`,
           top: `${mousePos.y - 325}px`,
           transform: 'translate3d(0, 0, 0)',
@@ -42,11 +42,11 @@ export const PageShell: React.FC<PageShellProps> = ({ children }) => {
         }}
       />
 
-      {/* Water-like Liquid Spotlight 2 (Purple - follows with lag for watery fluid sliding effect) */}
+      {/* Water-like Liquid Spotlight 2 (Emerald - follows with lag for watery fluid sliding effect) */}
       <div 
         className="pointer-events-none fixed -z-20 h-[550px] w-[550px] rounded-full opacity-50 blur-[130px] transition-all duration-700 ease-out"
         style={{
-          background: 'radial-gradient(circle, rgba(127, 0, 255, 0.1) 0%, rgba(127, 0, 255, 0.03) 60%, transparent 100%)',
+          background: 'radial-gradient(circle, rgba(16, 185, 129, 0.1) 0%, rgba(16, 185, 129, 0.03) 60%, transparent 100%)',
           left: `${mousePos.x - 275}px`,
           top: `${mousePos.y - 275}px`,
           transform: 'translate3d(15px, 15px, 0)',

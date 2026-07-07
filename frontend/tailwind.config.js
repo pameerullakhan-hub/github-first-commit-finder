@@ -8,17 +8,17 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "#08090D",
-        foreground: "#F8FAFC",
+        background: "#050806",
+        foreground: "#F0FDF4",
         card: {
-          DEFAULT: "rgba(15, 17, 26, 0.6)",
-          foreground: "#F8FAFC",
+          DEFAULT: "rgba(10, 16, 13, 0.6)",
+          foreground: "#F0FDF4",
           border: "rgba(255, 255, 255, 0.08)"
         },
         brand: {
-          cyan: "#00F2FE",
-          purple: "#7F00FF",
-          accent: "#3B82F6"
+          cyan: "#00F5A0",
+          purple: "#10B981",
+          accent: "#059669"
         }
       },
       fontFamily: {

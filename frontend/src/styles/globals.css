@@ -6,19 +6,19 @@
   body {
     @apply bg-background text-foreground antialiased overflow-x-hidden font-sans;
     background-image: 
-      radial-gradient(at 10% 20%, rgba(127, 0, 255, 0.1) 0px, transparent 50%),
-      radial-gradient(at 90% 80%, rgba(0, 242, 254, 0.08) 0px, transparent 50%);
+      radial-gradient(at 10% 20%, rgba(16, 185, 129, 0.08) 0px, transparent 50%),
+      radial-gradient(at 90% 80%, rgba(0, 245, 160, 0.06) 0px, transparent 50%);
     background-attachment: fixed;
   }
 }
 
 @layer utilities {
   .glass-card {
-    background: rgba(15, 17, 26, 0.55);
+    background: rgba(10, 16, 13, 0.6);
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
     border: 1px solid rgba(255, 255, 255, 0.06);
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.45);
   }
 
   .glass-card-hover {
@@ -26,11 +26,11 @@
   }
 
   .glass-card-hover:hover {
-    background: rgba(20, 22, 34, 0.7);
-    border-color: rgba(255, 255, 255, 0.12);
+    background: rgba(14, 22, 18, 0.7);
+    border-color: rgba(0, 245, 160, 0.2);
     box-shadow: 
-      0 12px 40px 0 rgba(0, 0, 0, 0.5),
-      0 0 20px 2px rgba(127, 0, 255, 0.1);
+      0 12px 40px 0 rgba(0, 0, 0, 0.6),
+      0 0 20px 2px rgba(0, 245, 160, 0.1);
   }
 
   .text-gradient {
@@ -38,19 +38,19 @@
   }
 
   .text-glow-cyan {
-    text-shadow: 0 0 10px rgba(0, 242, 254, 0.5);
+    text-shadow: 0 0 10px rgba(0, 245, 160, 0.5);
   }
 
   .text-glow-purple {
-    text-shadow: 0 0 10px rgba(127, 0, 255, 0.5);
+    text-shadow: 0 0 10px rgba(16, 185, 129, 0.5);
   }
 
   .border-glow-focus:focus-within {
     border-color: transparent;
-    background-image: linear-gradient(#0f111a, #0f111a), linear-gradient(135deg, #00F2FE, #7F00FF);
+    background-image: linear-gradient(#050806, #050806), linear-gradient(135deg, #00F5A0, #10B981);
     background-origin: border-box;
     background-clip: padding-box, border-box;
-    box-shadow: 0 0 25px 2px rgba(0, 242, 254, 0.15);
+    box-shadow: 0 0 25px 2px rgba(0, 245, 160, 0.15);
   }
 
   /* Custom Scrollbars */
@@ -59,15 +59,15 @@
   }
 
   ::-webkit-scrollbar-track {
-    background: rgba(8, 9, 13, 0.8);
+    background: rgba(5, 8, 6, 0.8);
   }
 
   ::-webkit-scrollbar-thumb {
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.08);
     border-radius: 4px;
   }
 
   ::-webkit-scrollbar-thumb:hover {
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(0, 245, 160, 0.2);
   }
 }
